@@ -1,0 +1,177 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    display: flex;
+}
+
+body {
+    background-color: rgb(3, 0, 27);
+}
+
+#side-container {
+    background-image: url('122915.jpg');
+    height: 100vh;
+    width: 50%;
+    color: white;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+.signupbtn {
+    color: white;
+    background-color: rgb(17, 0, 55);
+    width: 21vw;
+    font-size: 1rem;
+    border-radius: 20px;
+    margin: 1em 0em 1em 5.5em;
+    box-shadow: 0 7.5px 5px 0 rgba(51, 34, 88, 0.822);
+    height: 7vh;
+}
+@keyframes example {
+    from {
+        right: 100%;
+    }
+
+    to {
+        right: 0%;
+    }
+}
+
+#logo img {
+    margin-top: 1em;
+    height: 10vh;
+    width: 15vw;
+    margin-bottom: 1em;
+}
+
+#inside-content {
+    margin: 1em auto auto auto;
+    width: 60%;
+    height: 70%;
+    text-align: center;
+}
+
+.H-1 {
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-size: 3rem;
+}
+
+#form-container {
+    position: relative;
+    margin: 3em auto auto auto;
+    width: auto;
+    animation-name: form-container;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes form-container {
+    from {
+        right: 100%;
+    }
+
+    to {
+        right: 0%;
+    }
+}
+
+#form-content h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+    color: white;
+}
+
+#forname input {
+    width: 16vw;
+    height: 7vh;
+    border-radius: 4px;
+    border: 0.2px solid;
+    padding-left: 1em;
+    margin: 0.5em 0.5em 0.5em 0em;
+}
+
+#form-content .inputs {
+    width: 23vw;
+    height: 7vh;
+    border-radius: 4px;
+    border: 0.2px solid;
+    padding-left: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.divforform p {
+    color: red;
+}
+
+#signup {
+    width: 21vw;
+    height: 7vh;
+    background-color: rgb(17, 0, 55);
+    color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+    margin: 1em 0em 1em 5.5em;
+    box-shadow: 0 7.5px 5px 0 rgba(51, 34, 88, 0.822);
+}
+
+    #signup:hover {
+        width: 21vw;
+        height: 7vh;
+        background-color: rgb(113, 163, 249);
+        color: white;
+        font-size: 1rem;
+        border-radius: 20px;
+        margin: 1em 0em 1em 5.5em;
+        box-shadow: 0 7.5px 5px 0 rgba(51, 34, 88, 0.822);
+    }
+.forsignup {
+    width: 21vw;
+    height: 7vh;
+    background-color: rgb(17, 0, 55);
+    color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+    margin: 1em 0em 1em 5.5em;
+    box-shadow: 0 7.5px 5px 0 rgba(51, 34, 88, 0.822);
+}
+.forspace {
+    margin-top: 1em;
+}
+
+#login {
+    margin-top: 1em;
+    width: 35%;
+    height: 7vh;
+    font-size: 1rem;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    border: 0.2px solid;
+    box-shadow: 10px 20px 30px black
+}
+
+    #login:hover {
+        margin-top: 1em;
+        padding: 0.5em;
+        width: 40%;
+        height: 7.5vh;
+        font-size: 1rem;
+        border-radius: 25px;
+        background-color: whitesmoke;
+        border: 0.2px solid;
+        box-shadow: 10px 20px 30px black
+    }
+
+#animation img {
+    width: 50wv;
+    height: 50vh;
+}
+
+#forname {
+    display: flex;
+}

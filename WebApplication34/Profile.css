@@ -1,0 +1,359 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('Untitled\ design\ \(4\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Source Sans Pro';
+}
+
+header {
+    display: flex;
+    background-color: rgb(20, 24, 36);
+    justify-content: space-between;
+}
+
+#logo img {
+    height: 7vh;
+    width: 10vw;
+}
+
+#search {
+    margin: 0.8em 0em 0.5em 0em;
+}
+
+    #search input {
+        width: 60vw;
+        height: 4vh;
+        padding-left: 1em;
+        background-color: rgb(20, 24, 36);
+        border: none;
+        border-bottom: 1px solid grey;
+        font-size: 1rem;
+    }
+
+@media (max-width: 768px) {
+    #search input {
+        width: 40vw;
+    }
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+#scontainer {
+    /* background-color:rgb(20, 24, 36); */
+    margin-left: 0em;
+    display: flex;
+}
+
+#sidebar {
+    margin-top: 0.5em;
+    background-color: rgb(20, 24, 36);
+    width: 18vw;
+}
+
+.navlinks ul {
+    list-style: none;
+    position: fixed;
+}
+
+    .navlinks ul .list {
+        margin: 1.5em 0em;
+    }
+
+        .navlinks ul .list:hover {
+            margin: 1em 0em;
+            background-color: rgb(113, 163, 249);
+            width: 9vw;
+            padding: 0.4em 0.1em;
+            border-radius: 10px;
+            color: white;
+            font-family: 'Source Sans Pro';
+        }
+
+        .navlinks ul .list a {
+            text-decoration: none;
+            font: 1.2rem bold;
+            font-family: 'Source Sans Pro';
+            color: grey;
+            padding-left: 0em;
+        }
+
+            .navlinks ul .list a:hover {
+                color: white;
+            }
+
+.thide {
+    display: none;
+}
+
+#thide {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    #sidebar {
+        width: 100%;
+    }
+
+    #navlinks ul {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+        #navlinks ul .list {
+            margin: 1em 0em;
+        }
+
+            #navlinks ul .list:hover {
+                width: auto;
+                border-radius: 0;
+                padding: 0;
+            }
+
+    #contacts {
+        display: none;
+    }
+
+    .thide {
+        display: block;
+    }
+
+    #thide {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    #sidebar {
+        display: none;
+    }
+}
+
+#feedcontentnav {
+    margin-top: 0.5em;
+    background-color: rgb(20, 24, 36);
+    width: 72vw;
+    margin-left: 0.5em;
+}
+
+#homepagelinks {
+    display: flex;
+}
+
+#foryou {
+    background-image: url('122915.jpg');
+    height: 38vh;
+    width: 100%;
+}
+
+
+#post {
+    margin: 1em 1em 1em 1em;
+}
+
+    #post textarea {
+        background-color: rgb(20, 24, 36);
+        font-size: 1rem;
+        color: white;
+        border: none;
+        border-bottom: 1px solid grey;
+    }
+
+#buttons .labels {
+    padding: 0.5em 0.8em;
+    background-color: rgb(20, 24, 36);
+    color: grey;
+    border-radius: 15px;
+    border: none;
+}
+
+#buttons label:hover {
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 15px;
+    background-color: rgb(113, 163, 249);
+}
+
+#buttons input {
+    display: none;
+}
+
+#prof {
+    padding: 0.5em 0.8em;
+    background-color: rgb(20, 24, 36);
+    color: grey;
+    border-radius: 15px;
+    border: none;
+    float: right;
+    border: 1px solid grey;
+    margin-right: 0.5em;
+}
+
+    #prof:hover {
+        padding: 0.5em 1em;
+        color: white;
+        border-radius: 15px;
+        background-color: rgb(113, 163, 249);
+    }
+
+#cprofile {
+    display: none;
+}
+
+#Postit {
+    padding: 0.6em 1.3em;
+    background-color: rgb(83, 33, 182);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    float: right;
+    margin-top: 1em;
+}
+
+    #Postit:hover {
+        padding: 0.7em 1.5em;
+        background-color: rgb(113, 163, 249);
+        color: white;
+        border-radius: 15px;
+        border: none;
+        float: right;
+        margin-top: 1em;
+    }
+
+.form-floating select {
+    margin-top: 1em;
+    border: 5px solid rgb(83, 33, 182);
+    padding: 0.5em 1em;
+    background-color: rgb(20, 24, 36);
+    color: rgb(113, 163, 249);
+    border-radius: 15px;
+    border: none;
+    margin-top: 1em;
+}
+
+#status-feed {
+    margin: 1em;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro';
+    color: white;
+}
+
+.active {
+    background-color: rgb(113, 163, 249);
+    padding: 0.5em 0.8em;
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+
+.sociallinks {
+    display: flex;
+    margin: 1em;
+}
+
+.forsocial button {
+    padding: 0.2em;
+    width: 19vw;
+    font-size: 1rem;
+    background-color: rgb(20, 24, 36);
+    margin-left: 0.2em;
+    color: white;
+    border: none;
+    border-left: 1px solid grey;
+}
+
+    .forsocial button:hover {
+        padding: 0.3em;
+        width: 19vw;
+        font-size: 1rem;
+        background-color: rgb(113, 163, 249);
+        margin-left: 0.2em;
+        color: white;
+    }
+
+#contacts {
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    background-color: rgb(20, 24, 36);
+    width: 20.8vw;
+}
+
+    #contacts h3 {
+        color: rgb(239, 239, 239);
+        margin: 0.5em;
+    }
+
+.tags a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.tags p {
+    color: grey;
+}
+
+.imageforfeed {
+    margin: auto;
+    text-align: center;
+}
+
+#trends {
+    margin: auto;
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    #feedcontentnav {
+        width: 100%;
+        margin-right: 0.5em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #homepagelinks {
+        flex-direction: column;
+    }
+
+    #foryou {
+        margin-bottom: 1em;
+    }
+
+    #chngpic {
+        margin-top: 0.5em;
+    }
+
+    #foryou img {
+        max-width: 61vw;
+        height: auto;
+    }
+}
+
+.activepage {
+    margin: 1em 0em;
+    background-color: rgb(113, 163, 249);
+    width: 9vw;
+    padding: 0.4em 0.1em;
+    border-radius: 10px;
+}
+
+    .activepage a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Source Sans Pro';
+        font-size: 1.2rem;
+    }
