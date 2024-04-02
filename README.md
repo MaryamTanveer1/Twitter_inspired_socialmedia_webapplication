@@ -1,6 +1,6 @@
 # Social Media Web Application
 
-https://github.com/MaryamTanveer1/Vconnect_Webapp/blob/master/g.PNG
+![Screenshot 1](https://github.com/MaryamTanveer1/Vconnect_Webapp/blob/master/g.PNG)
 
 ## Overview
 
