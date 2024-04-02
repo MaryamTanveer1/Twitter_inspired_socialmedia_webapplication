@@ -1,6 +1,6 @@
 # Social Media Web Application
 
-[![Application Preview](/path/to/preview-image.png)](https://github.com/MaryamTanveer1/Vconnect_Webapp/blob/master/g.PNG)
+https://github.com/MaryamTanveer1/Vconnect_Webapp/blob/master/g.PNG
 
 ## Overview
 
